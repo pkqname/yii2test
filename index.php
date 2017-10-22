@@ -61,7 +61,6 @@
             echo $this->properties['title']."<br>";
             echo $this->properties['text']."<br>";
             echo $this->properties['source']."<br>";
-            echo "<hr>";
         }
     }
 
@@ -80,7 +79,6 @@
             echo $this->properties['title']."<br>";
             echo $this->properties['text']."<br>";
             echo $this->properties['end_date']."<br>";
-            echo "<hr>";
         }
     }
 
@@ -118,3 +116,10 @@
             $publication->do_print();
         }
     }
+
+
+
+
+
+
+
